@@ -3,8 +3,8 @@
 #Put your code here
 def fibo(a)
     target = a.abs
-    if a == 0 || a==1 
-        return a
+    if target == 0 || target==1 
+        return target
     end
     first = 0
     second = 1
