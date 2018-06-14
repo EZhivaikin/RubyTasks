@@ -2,7 +2,6 @@
 
 #Put your code here
 input = ARGV[0].downcase.delete "^a-z", "^0-9"
-puts input
 is_Pali = false
 for i in 0..(input.length / 2)
     is_Pali=false
