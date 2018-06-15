@@ -17,7 +17,7 @@ def fibo(a)
         second = res
     end
     if a<0
-        return ((-1)**(a+1))*res
+        return ((-1)**(target+1))*res
     end
     return res
 end
